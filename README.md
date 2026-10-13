@@ -40,27 +40,28 @@ ligand-binding profile focused on savory/umami stimuli.
 6. Performance evaluation (TP/FP/FN/TN)
 
 ## Repository Structure
-hmm-project/
-├── data/
-│ ├── raw/
-│ │ ├── target/ # Raw TAS1R1 sequences from NCBI
-│ │ ├── closest/ # Raw TAS1R2 sequences from NCBI
-│ │ └── rest/ # Raw TAS1R3 sequences from NCBI
-│ ├── train/
-│ │ ├── target/
-│ │ ├── closest/
-│ │ └── rest/
-│ └── test/
-│ ├── target/
-│ ├── closest/
-│ └── rest/
-├── results/
-│ ├── alignments/ # MAFFT output files
-│ ├── hmm_profiles/ # Constructed HMM profiles
-│ └── evaluation/ # Performance results (TP/FP/FN/TN)
-├── scripts/ # Python and bash scripts
-└── notebook/ # Analysis and visualization
+## Repository Structure
 
+    hmm-project/
+    ├── data/
+    │   ├── raw/
+    │   │   ├── target/     # Raw TAS1R1 sequences from NCBI
+    │   │   ├── closest/    # Raw TAS1R2 sequences from NCBI
+    │   │   └── rest/       # Raw TAS1R3 sequences from NCBI
+    │   ├── train/
+    │   │   ├── target/
+    │   │   ├── closest/
+    │   │   └── rest/
+    │   └── test/
+    │       ├── target/
+    │       ├── closest/
+    │       └── rest/
+    ├── results/
+    │   ├── alignments/     # MAFFT output files
+    │   ├── hmm_profiles/   # Constructed HMM profiles
+    │   └── evaluation/     # Performance results
+    ├── scripts/            # Python and bash scripts
+    └── notebook/           # Analysis and visualization
 
 ## Expected Output
 A TAS1R1-specific profile HMM that correctly identifies 
