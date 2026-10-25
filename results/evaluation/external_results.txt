@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+sp|O15303|GRM6_HUMAN -          Updated              -            9.4e-09   17.8   0.0   9.4e-09   17.8   0.0   5.2   6   0   0   6   6   6   3 Metabotropic glutamate receptor 6 OS=Homo sapiens OX=9606 GN=GRM6 PE=1 SV=2
+sp|O00222|GRM8_HUMAN -          Updated              -            2.5e-05    6.4  17.5   2.1e-06   10.0   0.0   4.5   5   0   0   5   5   5   3 Metabotropic glutamate receptor 8 OS=Homo sapiens OX=9606 GN=GRM8 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      results/hmm_profiles/GRM1_UpdatedProfiles.hmm
+# Target file:     results/evaluation/external_test.fasta
+# Option settings: hmmsearch --tblout results/evaluation/external_results.txt results/hmm_profiles/GRM1_UpdatedProfiles.hmm results/evaluation/external_test.fasta 
+# Current dir:     /cta/users/ebrar.dilbaz/hmm-project
+# Date:            Sun Oct 25 11:46:49 2026
+# [ok]
